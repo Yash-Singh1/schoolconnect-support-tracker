@@ -1,6 +1,6 @@
 # SchoolConnect
 
-This repository exists as a support tracker for the mobile application, SchoolConnect.
+This repository exists as a support tracker and documentation for the mobile application, SchoolConnect.
 
 ## Creating an Issue
 
