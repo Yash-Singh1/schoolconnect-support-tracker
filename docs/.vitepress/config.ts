@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // Configuration for the VitePress documentation site
 // @see https://vitepress.vuejs.org/reference/site-config
@@ -8,26 +8,37 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.vuejs.org/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Usage', link: '/faq' }
+      { text: "Home", link: "/" },
+      { text: "FAQ", link: "/faq" },
+      { text: "Features", link: "features" }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "Usage",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "Frequently Asked Questions", link: "/faq" },
+          { text: "Features", link: "/features" },
+        ],
+      },
+      {
+        text: "Developer",
+        items: [
+          { text: "Technology Stack", link: "/stack" },
+          { text: "Branding Guidelines", link: "/branding" },
+        ],
+      },
     ],
 
     logo: {
-      src: '/assets/logo.png'
+      src: "/assets/logo.png",
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yash-Singh1/schoolconnect-support-tracker' }
-    ]
-  }
-})
+      {
+        icon: "github",
+        link: "https://github.com/Yash-Singh1/schoolconnect-support-tracker",
+      },
+    ],
+  },
+});
