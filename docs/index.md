@@ -19,11 +19,11 @@ features:
     title: Secure Authentication
     details: SchoolConnect has secure authentication support stored on a PostgresSQL provision
   - icon:
-      src: ./assets/sdk.svg
+      src: https://raw.githubusercontent.com/Yash-Singh1/schoolconnect-support-tracker/main/docs/assets/sdk.svg
     title: Multi-platform Support
     details: SchoolConnect supports multiple platforms powered by Expo's interopability
   - icon:
-      src: ./assets/expo-notifications.png
+      src: https://raw.githubusercontent.com/Yash-Singh1/schoolconnect-support-tracker/main/docs/assets/expo-notifications.png
     title: Push Notifications
     details: SchoolConnect automatically notifies you when you need to be informed on new updates in your school
 ---

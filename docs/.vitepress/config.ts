@@ -32,7 +32,7 @@ export default defineConfig({
     ],
 
     logo: {
-      src: "./assets/logo.png",
+      src: "https://raw.githubusercontent.com/Yash-Singh1/schoolconnect-support-tracker/main/docs/assets/logo.png",
     },
 
     socialLinks: [
