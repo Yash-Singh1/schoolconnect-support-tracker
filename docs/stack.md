@@ -2,7 +2,7 @@
 
 Over here, I will cover the technology stack of SchoolConnect. Here is a flowchart of the workflow of the infrastructure:
 
-![Infrastructure Workflow](/assets/infra.png)
+![Infrastructure Workflow](./assets/infra.png)
 
 ## Mobile Application
 

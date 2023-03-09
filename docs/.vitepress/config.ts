@@ -5,6 +5,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "SchoolConnect",
   description: "Documentation for the mobile application SchoolConnect",
+  base: '/schoolconnect-support-tracker/',
   themeConfig: {
     // https://vitepress.vuejs.org/reference/default-theme-config
     nav: [
