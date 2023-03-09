@@ -32,7 +32,7 @@ export default defineConfig({
     ],
 
     logo: {
-      src: "/assets/logo.png",
+      src: "./assets/logo.png",
     },
 
     socialLinks: [
