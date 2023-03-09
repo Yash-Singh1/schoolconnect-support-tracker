@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.vuejs.org/reference/site-config
+// Configuration for the VitePress documentation site
+// @see https://vitepress.vuejs.org/reference/site-config
 export default defineConfig({
   title: "SchoolConnect",
   description: "Documentation for the mobile application SchoolConnect",
@@ -8,7 +9,7 @@ export default defineConfig({
     // https://vitepress.vuejs.org/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Usage', link: '/usage' }
+      { text: 'Usage', link: '/faq' }
     ],
 
     sidebar: [
@@ -21,8 +22,12 @@ export default defineConfig({
       }
     ],
 
+    logo: {
+      src: '/assets/logo.png'
+    },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Yash-Singh1/schoolconnect-support-tracker' }
     ]
   }
 })
