@@ -1,6 +1,7 @@
 {
   "name": "schoolconnect-support-tracker",
   "version": "1.0.0",
+  "packageManager": "pnpm@7.28.0",
   "description": "Support tracker and documentation for SchoolConnect",
   "main": "index.js",
   "keywords": [],
