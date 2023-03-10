@@ -5,18 +5,18 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "SchoolConnect",
   description: "Documentation for the mobile application SchoolConnect",
-  base: '/schoolconnect-support-tracker/',
+  base: "/schoolconnect-support-tracker/",
   themeConfig: {
     // https://vitepress.vuejs.org/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
       { text: "FAQ", link: "/faq" },
-      { text: "Features", link: "features" }
+      { text: "Features", link: "features" },
     ],
 
     sidebar: [
       {
-        text: "Usage",
+        text: "Users",
         items: [
           { text: "Frequently Asked Questions", link: "/faq" },
           { text: "Features", link: "/features" },
@@ -27,6 +27,10 @@ export default defineConfig({
         items: [
           { text: "Technology Stack", link: "/stack" },
           { text: "Branding Guidelines", link: "/branding" },
+          {
+            text: "Storyboard",
+            link: "https://translucent-marscapone-8f7.notion.site/c0ad09dfab0a445c97ed59c41bf617ef?v=ca94f7c03b004d0082cd1d7c68ce5e29",
+          },
         ],
       },
     ],
@@ -42,4 +46,6 @@ export default defineConfig({
       },
     ],
   },
+
+  appearance: "dark",
 });
