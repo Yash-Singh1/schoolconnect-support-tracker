@@ -26,7 +26,7 @@ export default defineConfig({
       {
         text: "Users",
         items: [
-          { text: "Frequently Asked Questions", link: "/faq" },
+          { text: "FAQs", link: "/faq" },
           { text: "Features", link: "/features" },
         ],
       },

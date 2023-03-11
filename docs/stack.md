@@ -29,7 +29,11 @@ The database uses:
 
 ## Next.js Website
 
-The Next.js website that hosts the privacy policy, terms of sevice, and the backend uses Next.js 13 and TypeScript 4.9.
+The Next.js website that hosts the privacy policy, terms of service, and the backend. It uses Next.js 13 and TypeScript 4.9.
+
+## Notifications
+
+Notifications for the application are handled by Expo's Push Notifications API. The backend uses the Expo Server SDK to push notifications to the API. For scheduling notifications, the backend uses QStash to create a schedule.
 
 ## Documentation
 
