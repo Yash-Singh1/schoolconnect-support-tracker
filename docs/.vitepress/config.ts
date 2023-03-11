@@ -6,6 +6,14 @@ export default defineConfig({
   title: "SchoolConnect",
   description: "Documentation for the mobile application SchoolConnect",
   base: "/schoolconnect-support-tracker/",
+
+  head: [
+    [
+      "link",
+      { rel: "icon", href: "/schoolconnect-support-tracker/favicon.ico" },
+    ],
+  ],
+
   themeConfig: {
     // https://vitepress.vuejs.org/reference/default-theme-config
     nav: [
