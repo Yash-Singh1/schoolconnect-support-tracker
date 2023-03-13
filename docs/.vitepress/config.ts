@@ -37,6 +37,7 @@ export default defineConfig({
         items: [
           { text: "Technology Stack", link: "/stack" },
           { text: "Branding Guidelines", link: "/branding" },
+          { text: "UI Plan", link: "/plan" },
           {
             text: "Issue Tracker",
             link: "https://github.com/Yash-Singh1/schoolconnect-support-tracker/issues",
